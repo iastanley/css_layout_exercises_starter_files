@@ -1,4 +1,9 @@
-/*navbar sytling*/
+/*BACKGROUND IMAGE*/
+
+
+
+/*NAVBAR*/
+
 nav {
 	position: fixed;
 	height: 80px;
@@ -7,6 +12,7 @@ nav {
 	padding-right: 60px;
 	text-align: left;
 	background: grey;
+	top: 0px;
 }
 
 nav img {
@@ -30,4 +36,31 @@ nav li {
 ul {
 	position: relative;
 	bottom: 15px;
+}
+
+/*MAIN STYLING*/
+
+
+.green-box {
+	width: 600px;
+	height: 300px;
+	margin: 200px auto;
+	border: 10px dashed green;
+	position: relative;
+}
+
+main img {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+img[alt="spacedog"] {
+	top: 200px;
+	left: 500px;
+}
+
+img[alt="spacecat"] {
+	right: 500px;
+	bottom: 200px;
 }
