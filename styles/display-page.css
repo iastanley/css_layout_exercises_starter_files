@@ -6,19 +6,17 @@ main {
 	font-size: 0;
 }
 
-div {
+.box {
 	border: 1px solid black;
+	display: inline-block;
 }
 
-
-div.top-row {
-	display: inline-block;
+.top-row .box {
 	height: 200px;
 	width: 50%;
 }
 
-div.bottom-row {
-	display: inline-block;
+.bottom-row .box {
 	height: 300px;
 	width: 33.33%;
 }
